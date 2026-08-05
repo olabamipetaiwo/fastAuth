@@ -1,0 +1,24 @@
+# Project-specific
+CLAUDE.md
+notes/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg
+build/
+dist/
+
+# OS
+.DS_Store
+
+# Postgres data volume (if run outside docker-compose named volumes)
+pgdata/
